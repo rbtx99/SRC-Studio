@@ -91,3 +91,38 @@
 }
 
 
+
+
+
+#middle {
+    background: #f00;
+    top: 150px;
+    bottom: 150px
+}
+#footer {
+    background: #777;
+    height: 150px;
+    bottom: 0
+}
+#left, #right {
+    overflow-y: scroll
+}
+#left {
+    background: #aaa;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%
+}
+#right {
+    background: #999;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    float: right;
+    width: 50%;
+    height: 100%
+}
+
+
