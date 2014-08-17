@@ -69,3 +69,25 @@
   text-transform: uppercase;
   font-size: 1.4rem;
 }
+
+
+
+#column1-wrap {
+    float: left;
+    width: 100%;
+}
+#column1 {
+    background-color: cyan;
+    margin-right: 200px;
+}
+#column2 {
+    background-color: lime;
+    float: left;
+    width: 200px;
+    margin-left: -200px;
+}
+#clear {
+    clear: both;
+}
+
+
