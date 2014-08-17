@@ -97,7 +97,8 @@
 #middle {
     background: #f00;
     top: 150px;
-    bottom: 150px
+    bottom: 150px;
+	color:#EEEEEE
 }
 #footer {
     background: #777;
@@ -108,20 +109,20 @@
     overflow-y: scroll
 }
 #left {
-    background: #aaa;
+    background: #000;
     position: absolute;
     left: 0;
     top: 0;
-    width: 50%;
+    width: 33%;
     height: 100%
 }
 #right {
-    background: #999;
+    background: #000;
     position: absolute;
-    left: 50%;
+    left: 33%;
     top: 0;
     float: right;
-    width: 50%;
+    width: 67%;
     height: 100%
 }
 
