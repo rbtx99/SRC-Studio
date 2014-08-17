@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spartan Studio</title>
+    <style>
+      #knob {
+        background-image: url(chrome-logo.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+    </style>
+
+	<script type="text/javascript" src="./js/lib/jquery-2.1.1.min.js"></script>	
+	<script type="text/javascript" src="./js/comms/chrome_usb.js"></script>
+    <script src="main.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/styles2.css"/>
+  </head>
+  
+  <body>
+  
+      <div id="navbar">
+        <!--<div class="title">
+             Phonegap CSS3 Demo  </div>-->
+		
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_home.png"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_rotor.png"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_tail.png"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_governor.png"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_system.png"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_setup.png"></div>
+        <!-- <div class="button home kit-active kit-title-text" click-link="/"><img src="icons/test.svg" height="60px"></div> -->
+        <!-- <div class="button home kit-active kit-title-text" click-link="/">Home</div> -->
+    </div>
+  
+  
+    <button id="requestPermission">Request permissions</button>
+    <div id="knob" style="display: none;"></div>
+  </body>
+</html>
