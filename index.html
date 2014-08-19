@@ -21,7 +21,9 @@
 	<script>
 		window.addEventListener("resize", function(e) {
 			var mapElement = document.getElementById("navbar");
-			mapElement.style.height = mapElement.offsetWidth * 0.1;
+			console.log(mapElement.offsetWidth);
+			// mapElement.style.height = mapElement.offsetWidth * 0.1;
+			 mapElement.height = mapElement.offsetWidth;
 			});
 	
 	</script>
@@ -47,10 +49,10 @@
     </div>
   
   <!-- http://stackoverflow.com/questions/4556356/webpage-multiple-scroll-areas-with-variable-height -->
-  <div id="middle">
+ <!-- <div id="middle"> -->
    <div id="left">Column 11<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br>Column 1<br></div>
    <div id="right">Column 22<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br>Column 2<br></div>
-</div>
+<!-- </div> -->
   
 <!--    <button id="requestPermission">Request permissions</button>
     <div id="knob" style="display: none;"></div> -->
