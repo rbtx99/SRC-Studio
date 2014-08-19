@@ -10,12 +10,12 @@
   left: 0;
   width: 100%;
   border-bottom: 0.2rem solid rgba(255, 0, 0, 0.8);
-/*  padding-left: 0.3rem;
-  padding-top: 0.3rem;*/
-    padding-left: 0.5%;
+/*  padding-left: 0.5%;
+  padding-right: 0.5%;
   padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  
+  padding-bottom: 0.5%;*/
+  padding: 0.3% 0.3% 0.3% 0.3%;		/* % is awlways calculated against width */
+ 
  /* overflow-x: auto;
   overflow: hidden;
    white-space: nowrap; */
@@ -29,10 +29,12 @@
 /*  padding-left: 0.3rem;
   padding-right: 0.3rem;*/
   
-    padding-left: 0.3%;
-  padding-right: 0.3%;
-
+  padding-left: 0%;	/* 0.3% */
+  padding-right: 0%;
+  padding-bottom: 0%;
+  padding-top: 0%;
   
+  line-height: 0;		/* Gets rid of the space below the image which is there for letter descenders */
   /* border: 0px solid rgba(127, 255, 127, 0.8); */
   /* border-radius: 0.7rem;   */
   border-radius: 20%; 
@@ -42,6 +44,9 @@
 /*  margin-right: 0.5rem; */
   margin-right: 0.5%;
   width: 5%;
+
+  
+  
  /* border-left: 0.2rem solid rgba(255, 255, 255, 0.8);*/
    /* float: right; */
    float: left; 
@@ -74,14 +79,15 @@
 
 .img-size {
 	width: 100%;	/* 100% of the parent <div> */
+	height: 100%;
 }
 
 
 
 .kit-title-text {
-  color: white;
+ /* color: white;
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.4rem;*/
 }
 
 
