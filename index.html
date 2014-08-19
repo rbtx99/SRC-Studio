@@ -18,6 +18,15 @@
 	<script type="text/javascript" src="./js/comms/chrome_usb.js"></script>
     <script src="main.js"></script>
 	
+	<script>
+		window.addEventListener("resize", function(e) {
+			var mapElement = document.getElementById("navbar");
+			mapElement.style.height = mapElement.offsetWidth * 0.1;
+			});
+	
+	</script>
+	
+	
 	<link rel="stylesheet" type="text/css" href="css/styles2.css"/>
   </head>
   
@@ -27,12 +36,12 @@
         <!--<div class="title">
              Phonegap CSS3 Demo  </div>-->
 		
-		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_home.png"></div>
-		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_rotor.png"></div>
-		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_tail.png"></div>
-		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_governor.png"></div>
-		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_system.png"></div>
-		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_setup.png"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_home.png" class="img-size"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_rotor.png" class="img-size"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_tail.png" class="img-size"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_governor.png" class="img-size"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_system.png" class="img-size"></div>
+		<div class="button home kit-active kit-title-text" click-link="/"><img src="icons/r_setup.png" class="img-size"></div>
         <!-- <div class="button home kit-active kit-title-text" click-link="/"><img src="icons/test.svg" height="60px"></div> -->
         <!-- <div class="button home kit-active kit-title-text" click-link="/">Home</div> -->
     </div>
