@@ -4,6 +4,7 @@
   position: fixed;
   height: 4.6rem;
   background-color: #777777;
+  background: -webkit-linear-gradient(0deg, gold, gray);
   top: 0;
   left: 0;
   width: 100%;
