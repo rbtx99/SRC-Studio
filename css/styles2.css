@@ -113,18 +113,20 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 33%;
+    width: 35%;
     height: 100%;
 }
 #right {
     background: #000;
     position: absolute;
-    left: 33%;
+    left: 35%;
     top: 0;
     float: right;
-    width: 67%;
+	width: calc(65% - 0.2rem);
+
+	
     height: 100%;
-	border-left: 0.2rem solid rgba(255, 0, 0, 0.8);
+	border-left: 0.2rem solid rgba(255, 0, 0, 0.8); 
 }
 
 
