@@ -2,8 +2,7 @@
   z-index: 100;
   -webkit-transform: translateZ(100px);
   position: fixed;
- /* height: 4.6rem;*/
-
+ 
   background-color: #777777;
   /* background: -webkit-linear-gradient(0deg, gold, gray); */
   top: 0;
@@ -22,15 +21,13 @@
 }
 
 #navbar .button{
-  padding: 0% 0% 0% 0%;
-  line-height: 0;		/* Gets rid of the space below the image which is there for letter descenders */
-  border-radius: 20%; 
-  float: left; 
   width: 9%;
   margin-right: 0.9%;
-  
-
+  padding: 0% 0% 0% 0%;
+  line-height: 0;			/* Gets rid of the space below the image which is there for letter descenders */
+  border-radius: 20%; 
   /* border: 5px solid rgba(127, 255, 127, 0.8); */
+  float: left; 
 }
 
 .img-size {
@@ -82,10 +79,15 @@
 #left, #right {
 	color:#EEEEEE;
     overflow-y: scroll;
-	top: calc(4.6rem + 0.2rem);
-	height: calc(100% - (4.6rem + 0.2rem));
+/*	top: calc(4.6rem + 0.2rem);
+	height: calc(100% - (4.6rem + 0.2rem)); */
+	top: 0;
+	padding-top: calc(10% + 0.2rem);
+	padding-bottom: 0;
+	/*height: 100%;*/
     background: #000;
     position: absolute;
+	overflow: hidden;		/* Hides the scroll sliders */
 }
 #left {
     left: 0;
